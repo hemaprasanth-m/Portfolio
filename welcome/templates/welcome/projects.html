@@ -1,0 +1,80 @@
+{% extends "welcome/layout.html" %}
+
+   
+{% block body%}
+
+<div class="bg2">
+   
+<div class="blog-posts">
+    <div class="post">
+        <img src="/static/welcome/hydvik.png" alt="my image" class="post-image">
+        <div class="post-content">
+            <h3>Hydvik Webapp for my startup</h3>
+            <a href="https://github.com/saiganesh-d/facial-recognition" target="_blank" rel="noopener noreferrer">github repo</a>
+        </div>  
+    </div>
+    <div class="post">
+         <img src="/static/welcome/Email.png" alt="my image" class="post-image" >
+         <div class="post-content">
+             <h3>this portfolio project built on html, css,JS as frontend and django as backend</h3>
+             <div class="link">
+             <a href="https://github.com/saiganesh-d/CS50W-mail-with-django-html-js" target="_blank" rel="noopener noreferrer">code</a>
+             <a href="http://iamprasanth.herokuapp.com" target="_blank" rel="noopener noreferrer">deployed webapp</a>
+            </div>
+         </div>
+    </div>
+    <div class="post">
+        <img src="/static/welcome/car.png"  alt="my image" class="post-image">
+        <div class="post-content">
+            <h3>this is car predction Machine Learning Project, In this I used randomforest regression to predict cars value</h3>
+            <div class="link">
+                <a href="https://github.com/saiganesh-d/Car-price-predict" target="_blank" rel="noopener noreferrer">code</a>
+                <a href="{% url 'cars'%}" target="_blank" rel="noopener noreferrer">deployed webapp</a>
+            </div>
+        </div>
+        
+   </div>
+   <div class="post">
+    <img src="/static/welcome/pickme-app.png" alt="my image" class="post-image">
+    <div class="post-content">
+        <h3>Its Mall analysis project, In this we will analysis the given city and find best place to esatblish a new mall.</h3>
+        <a href="https://github.com/saiganesh-d/MALL-analysis" target="_blank" rel="noopener noreferrer">github repo</a>
+    </div>  
+</div>  
+
+   <div class="post">
+        <img src="/static/welcome/ecom.png" alt="my image" class="post-image">
+        <div class="post-content">
+            <h3>this ecoommerce project built on html, css,JavaScript as frontend and django as backend</h3>
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">github repo</a>
+        </div>  
+    </div>
+    <div class="post">
+        <img src="/static/welcome/pickme-app.png" alt="my image" class="post-image">
+        <div class="post-content">
+            <h3>Auto railway gate system <br>Platform: 555 timer, resistors (10k, 1k, and 2.5k), LED, Transistors, detect sensor, and capacitors.
+                Members: 4
+                Duration: 3 months
+                </h3>
+           
+        </div>  
+    </div>  
+    
+    
+    
+    
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+{% endblock %}
